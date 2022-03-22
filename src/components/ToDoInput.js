@@ -23,6 +23,7 @@ function ToDoInput (props){
       props.tambahToDo(newData);
       setData({
         title: "",
+        completed: "false",
       });
     }else{
       alert("Data masih kosong")
